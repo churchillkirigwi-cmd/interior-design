@@ -482,3 +482,252 @@ font-size:38px;
 }
 
 }
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media(max-width:1000px){
+
+/* NAVBAR */
+.navbar{
+padding:25px;
+}
+
+/* HERO */
+.hero{
+height:90vh;
+margin:0 20px 30px;
+}
+
+.hero-title{
+left:30px;
+top:25%;
+}
+
+.hero-title h1{
+font-size:70px;
+line-height:1;
+}
+
+/* FLOATING CARD */
+.floating-card{
+width:300px;
+left:25px;
+bottom:25px;
+padding:25px;
+}
+
+/* MINI VIDEO */
+.mini-video-card{
+display:none;
+}
+
+/* CIRCLE TEXT */
+.circle-text{
+display:none;
+}
+
+/* ABOUT */
+.about-grid{
+grid-template-columns:1fr;
+gap:40px;
+}
+
+/* SERVICES */
+.services-grid{
+grid-template-columns:1fr 1fr;
+}
+
+/* GALLERY */
+.gallery-top{
+grid-template-columns:1fr;
+}
+
+.bottom-gallery{
+grid-template-columns:1fr;
+}
+
+/* VIDEO TEXT */
+.video-text h2{
+font-size:50px;
+}
+
+/* CTA */
+.cta-section h2{
+font-size:45px;
+}
+
+}
+
+/* ================= PHONE RESPONSIVE ================= */
+
+@media(max-width:768px){
+
+/* MAIN CONTAINER */
+.site-container{
+width:100%;
+margin-top:0;
+border-radius:0;
+}
+
+/* NAVBAR */
+.navbar{
+padding:20px;
+flex-direction:column;
+gap:15px;
+}
+
+.nav-links{
+gap:18px;
+}
+
+/* HERO */
+.hero{
+height:100vh;
+margin:0;
+border-radius:0;
+}
+
+/* HERO TITLE */
+.hero-title{
+left:20px;
+top:22%;
+}
+
+.hero-title h1{
+font-size:52px;
+line-height:1.05;
+}
+
+/* HERO CONTENT */
+.floating-card{
+width:85%;
+left:20px;
+bottom:20px;
+padding:20px;
+border-radius:20px;
+}
+
+.floating-card p{
+font-size:14px;
+line-height:1.7;
+}
+
+/* ABOUT */
+.about-section{
+padding:70px 25px;
+}
+
+.about-content h2{
+font-size:38px;
+}
+
+.about-content p{
+font-size:15px;
+}
+
+/* SERVICES */
+.services-section{
+padding:70px 25px;
+}
+
+.section-header h2{
+font-size:36px;
+}
+
+.services-grid{
+grid-template-columns:1fr;
+}
+
+/* SERVICE CARDS */
+.service-card{
+padding:35px 25px;
+}
+
+/* VIDEO SHOWCASE */
+.video-showcase{
+height:70vh;
+}
+
+.video-text{
+width:90%;
+}
+
+.video-text h2{
+font-size:38px;
+}
+
+.video-text p{
+font-size:15px;
+}
+
+/* GALLERY */
+.gallery-section{
+padding:70px 25px;
+}
+
+.side-card h3{
+font-size:28px;
+}
+
+.bottom-gallery img{
+height:240px;
+}
+
+/* CTA */
+.cta-section{
+padding:80px 25px;
+}
+
+.cta-section h2{
+font-size:38px;
+line-height:1.2;
+}
+
+.cta-buttons{
+flex-direction:column;
+align-items:center;
+}
+
+/* BUTTONS */
+.whatsapp-btn,
+.call-btn{
+width:100%;
+max-width:280px;
+text-align:center;
+}
+
+/* FOOTER */
+footer{
+padding:25px;
+font-size:14px;
+}
+
+}
+
+/* ================= SMALL PHONES ================= */
+
+@media(max-width:480px){
+
+.hero-title h1{
+font-size:42px;
+}
+
+.about-content h2,
+.section-header h2,
+.cta-section h2{
+font-size:30px;
+}
+
+.video-text h2{
+font-size:30px;
+}
+
+.logo{
+font-size:32px;
+}
+
+.nav-links{
+font-size:14px;
+}
+
+}
