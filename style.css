@@ -349,6 +349,7 @@ object-fit:cover;
 display:grid;
 grid-template-columns:repeat(3,1fr);
 gap:25px;
+margin-bottom:25px;
 }
 
 .bottom-gallery img{
@@ -659,6 +660,8 @@ font-size:38px;
 .video-text p{
 font-size:15px;
 }
+
+
 
 /* GALLERY */
 .gallery-section{
