@@ -31,8 +31,9 @@ padding:30px 50px;
 }
 
 .logo{
-font-size:40px;
+font-size:32px;
 font-weight:800;
+letter-spacing:1px;
 }
 
 .nav-links{
@@ -608,20 +609,30 @@ margin-top:0;
 border-radius:0;
 }
 
+
 /* NAVBAR */
 .navbar{
-padding:20px;
-flex-direction:column;
-gap:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 20px;
+flex-direction:row;
+}
+
+.logo{
+font-size:22px;
+font-weight:700;
 }
 
 .nav-links{
+display:flex;
 gap:18px;
+align-items:center;
 }
 
 /* HERO */
 .hero{
-height:100vh;
+height:78vh;
 margin:0;
 border-radius:0;
 }
@@ -629,26 +640,33 @@ border-radius:0;
 /* HERO TITLE */
 .hero-title{
 left:20px;
-top:22%;
+top:14%;
+width:90%;
 }
 
 .hero-title h1{
-font-size:52px;
-line-height:1.05;
+font-size:40px;
+line-height:1.15;
+max-width:320px;
 }
 
 /* HERO CONTENT */
 .floating-card{
-width:85%;
-left:20px;
-bottom:20px;
-padding:20px;
-border-radius:20px;
+width:90%;
+left:5%;
+bottom:25px;
+padding:18px;
+border-radius:18px;
 }
 
 .floating-card p{
-font-size:14px;
-line-height:1.7;
+font-size:15px;
+line-height:1.6;
+margin-bottom:15px;
+}
+
+.hero-overlay{
+padding:20px;
 }
 
 /* ABOUT */
@@ -764,7 +782,8 @@ font-size:30px;
 }
 
 .logo{
-font-size:32px;
+    font-size:20px;
+    font-weight:700;
 }
 
 .nav-links{
