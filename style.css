@@ -329,6 +329,150 @@ margin-bottom:20px;
 line-height:1.9;
 }
 
+
+/* ================= CONSTRUCTION PAGE ================= */
+
+.construction-hero{
+
+height:80vh;
+
+background:url("images/constructin-bannero.jpg") center center/cover;
+
+position:relative;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+text-align:center;
+
+overflow:hidden;
+
+}
+
+.construction-overlay{
+
+position:absolute;
+
+inset:0;
+
+background:rgba(0,0,0,.45);
+
+}
+
+.construction-text{
+
+position:relative;
+
+z-index:2;
+
+color:#fff;
+
+max-width:850px;
+
+padding:20px;
+
+}
+
+.construction-text h1{
+
+font-size:72px;
+
+margin-bottom:20px;
+
+}
+
+.construction-text p{
+
+font-size:18px;
+
+line-height:1.8;
+
+margin-bottom:35px;
+
+}
+
+.construction-gallery{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:30px;
+
+}
+
+.construction-card{
+
+background:#fff;
+
+border-radius:25px;
+
+overflow:hidden;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+transition:.35s;
+
+}
+
+.construction-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.construction-card img{
+
+width:100%;
+
+height:320px;
+
+object-fit:cover;
+
+}
+
+.construction-card h3{
+
+padding:20px 20px 5px;
+
+font-size:24px;
+
+}
+
+.construction-card p{
+
+padding:0 20px 25px;
+
+color:#666;
+
+}
+
+@media(max-width:768px){
+
+.construction-text h1{
+
+font-size:42px;
+
+}
+
+.construction-text p{
+
+font-size:16px;
+
+}
+
+.construction-card img{
+
+height:250px;
+
+}
+
+}
+
+
 /* GALLERY */
 .gallery-section{
 padding:100px 60px;
